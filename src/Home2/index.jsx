@@ -5,13 +5,15 @@ import { enquireScreen } from 'enquire-js';
 
 import Nav2 from './Nav2';
 import Banner3 from './Banner3';
+import Feature6 from './Feature6';
+import Content4 from './Content4';
 import Content8 from './Content8';
 import Content9 from './Content9';
-import Contact0 from './Contact0';
+import Content10 from './Content10';
 import Content11 from './Content11';
 import Content12 from './Content12';
 import Footer2 from './Footer2';
-import Point from './Point';
+
 import {
   Nav20DataSource,
   Banner30DataSource,
@@ -19,7 +21,7 @@ import {
   Content40DataSource,
   Content80DataSource,
   Content90DataSource,
-  Contact00DataSource,
+  Content100DataSource,
   Content110DataSource,
   Content120DataSource,
   Footer20DataSource,
@@ -74,6 +76,18 @@ export default class Home extends React.Component {
         dataSource={Banner30DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Feature6
+        id="Feature6_0"
+        key="Feature6_0"
+        dataSource={Feature60DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Content4
+        id="Content4_0"
+        key="Content4_0"
+        dataSource={Content40DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content8
         id="Content8_0"
         key="Content8_0"
@@ -86,10 +100,10 @@ export default class Home extends React.Component {
         dataSource={Content90DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Contact0
-        id="Contact0_0"
-        key="Contact0_0"
-        dataSource={Contact00DataSource}
+      <Content10
+        id="Content10_0"
+        key="Content10_0"
+        dataSource={Content100DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content11
@@ -109,21 +123,6 @@ export default class Home extends React.Component {
         key="Footer2_0"
         dataSource={Footer20DataSource}
         isMobile={this.state.isMobile}
-      />, // 导航和页尾不进入锚点区，如果需要，自行添加;
-      <Point
-        key="list"
-        data={[
-          'Nav2_0',
-          'Banner3_0',
-          'Feature6_0',
-          'Content4_0',
-          'Content8_0',
-          'Content9_0',
-          'Contact0_0',
-          'Content11_0',
-          'Content12_0',
-          'Footer2_0',
-        ]}
       />,
     ];
     return (

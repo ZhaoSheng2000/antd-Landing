@@ -3331,6 +3331,13 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
+deep-eql@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/deep-eql/-/deep-eql-3.0.1.tgz#dfc9404400ad1c8fe023e7da1df1c147c4b444df"
+  integrity sha512-+QeIQyN5ZuO+3Uk5DYh6/1eKO0m0YmJFGNmFHGACpf1ClL1nmlV/p4gNgbl2pJGxgXb4faqo6UE+M5ACEMyVcw==
+  dependencies:
+    type-detect "^4.0.0"
+
 deep-equal@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.1.tgz#b5c98c942ceffaf7cb051e24e1434a25a2e6076a"
@@ -8889,6 +8896,18 @@ rc-trigger@^3.0.0-rc.2:
     rc-animate "^3.0.0-rc.1"
     rc-util "^4.4.0"
 
+rc-tween-one@^1.2.5:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/rc-tween-one/-/rc-tween-one-1.8.1.tgz#5b3b464b9bf2c369efc16c816cccf57bc16ae253"
+  integrity sha512-Avg8EXHdt6ABV9WnmTmh6zEaAzUvl4bFZKbP3y6BE8UGBGp1qUhlIgCB83gL+5eA0VECdM/b9PsEBRrcxzSpGw==
+  dependencies:
+    babel-runtime "6.x"
+    deep-eql "~3.0.1"
+    prop-types "^15.6.1"
+    raf "~3.4.0"
+    style-utils "~0.1.13"
+    tween-functions "~1.2.0"
+
 rc-tween-one@^2.2.0, rc-tween-one@^2.4.0, rc-tween-one@^2.5.0, rc-tween-one@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/rc-tween-one/-/rc-tween-one-2.6.5.tgz#b4c21d18df0ffae38bc6965daf3b73d72df0c584"
@@ -9088,6 +9107,14 @@ react-slick@~0.25.2:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-sublime-video@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/react-sublime-video/-/react-sublime-video-0.2.5.tgz#c967b8e9a374b36d6a5d1b63b93fa6ec02e54842"
+  integrity sha1-yWe46aN0s21qXRtjuT+m7ALlSEI=
+  dependencies:
+    prop-types "^15.5.10"
+    rc-tween-one "^1.2.5"
 
 react@^16.12.0:
   version "16.12.0"
@@ -10205,6 +10232,11 @@ style-loader@1.0.0:
     loader-utils "^1.2.3"
     schema-utils "^2.0.1"
 
+style-utils@~0.1.13:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/style-utils/-/style-utils-0.1.24.tgz#fc0675d79a0b201bf86fc5d5a1dd202f838de544"
+  integrity sha512-MVZSKubpU/vIfpmOsi8/0ckWxb0WmGBmyNoEDGWZM9cM8n8sCL6DJftl3lEf8Uy5zKQ9+O1XdJxscWTDosCQpQ==
+
 style-utils@~0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/style-utils/-/style-utils-0.2.0.tgz#3d8614931b8ff6e1eea0545f1dbfaf271bb1aa7e"
@@ -10504,6 +10536,11 @@ type-check@~0.3.2:
   integrity sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
   dependencies:
     prelude-ls "~1.1.2"
+
+type-detect@^4.0.0:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
+  integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
 
 type-fest@^0.8.1:
   version "0.8.1"

@@ -14,61 +14,49 @@ export const Nav20DataSource = {
       {
         name: 'Banner3_0',
         to: 'Banner3_0',
-        children: '介绍',
+        children: 'Banner3_0',
         className: 'menu-item',
       },
       {
         name: 'Feature6_0',
         to: 'Feature6_0',
-        children: '2',
+        children: 'Feature6_0',
         className: 'menu-item',
       },
       {
         name: 'Content4_0',
         to: 'Content4_0',
-        children: '3',
+        children: 'Content4_0',
         className: 'menu-item',
       },
       {
         name: 'Content8_0',
         to: 'Content8_0',
-        children: '4',
-        className: 'menu-item',
-      },
-      {
-        name: 'Content9_1',
-        to: 'Content9_1',
-        children: '5',
+        children: 'Content8_0',
         className: 'menu-item',
       },
       {
         name: 'Content9_0',
         to: 'Content9_0',
-        children: '6',
+        children: 'Content9_0',
         className: 'menu-item',
       },
       {
         name: 'Content10_0',
         to: 'Content10_0',
-        children: '7',
-        className: 'menu-item',
-      },
-      {
-        name: 'Contact0_0',
-        to: 'Contact0_0',
-        children: '8',
+        children: 'Content10_0',
         className: 'menu-item',
       },
       {
         name: 'Content11_0',
         to: 'Content11_0',
-        children: '9',
+        children: 'Content11_0',
         className: 'menu-item',
       },
       {
         name: 'Content12_0',
         to: 'Content12_0',
-        children: '10',
+        children: 'Content12_0',
         className: 'menu-item',
       },
     ],
@@ -114,10 +102,9 @@ export const Nav20DataSource = {
       },
     ],
   },
-  menuLink: { children: [] },
 };
 export const Banner30DataSource = {
-  wrapper: { className: 'banner3 k3765meoqim-editor_css' },
+  wrapper: { className: 'banner3' },
   textWrapper: {
     className: 'banner3-text-wrapper',
     children: [
@@ -148,13 +135,7 @@ export const Banner30DataSource = {
 };
 export const Feature60DataSource = {
   wrapper: { className: 'home-page-wrapper feature6-wrapper' },
-  OverPack: {
-    className: 'home-page feature6',
-    playScale: 0.3,
-    appear: true,
-    always: true,
-    replay: true,
-  },
+  OverPack: { className: 'home-page feature6', playScale: 0.3 },
   Carousel: {
     className: 'feature6-content',
     dots: false,
@@ -593,7 +574,7 @@ export const Content90DataSource = {
     ],
   },
 };
-export const Contact00DataSource = {
+export const Content100DataSource = {
   wrapper: { className: 'home-page-wrapper content10-wrapper' },
   Content: {
     className: 'icon-wrapper',
