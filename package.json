@@ -12,6 +12,7 @@
     "rc-banner-anim": "^2.4.2",
     "rc-queue-anim": "^1.8.2",
     "rc-scroll-anim": "^2.7.4",
+    "rc-texty": "^0.2.0",
     "rc-tween-one": "^2.6.5",
     "react": "^16.12.0",
     "react-app-rewired": "^2.1.5",
