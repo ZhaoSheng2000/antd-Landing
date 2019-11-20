@@ -9,6 +9,7 @@
     "enquire-js": "^0.2.1",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
+    "rc-banner-anim": "^2.4.2",
     "rc-queue-anim": "^1.8.2",
     "rc-scroll-anim": "^2.7.4",
     "rc-tween-one": "^2.6.5",
